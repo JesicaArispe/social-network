@@ -1,0 +1,30 @@
+.container{
+    font-family: 'Raleway', sans-serif;
+}
+.titulo {
+    background-color: #ffd151;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-primary {
+    background-color: #a6d49f;
+
+}
+.btn-primary:hover{
+    background-color:#ffd151;
+    outline-color: #ffd151;
+
+}
+.btn-primary:focus{
+    outline-color: #ffd151;
+}
+.form-control:focus{
+    outline-color: #a6d49f;
+}
+.cuerpo {
+    background-color: #f5fdc6;
+}
+
+html, body {
+    height: 100%
+}
