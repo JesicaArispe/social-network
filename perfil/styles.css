@@ -1,3 +1,6 @@
+html, body {
+    height: 100%;
+}
 .banner {
     background-color: #a6d49f;
 }
@@ -11,3 +14,19 @@ body {
 .form-control {
     height: 100%;
 } 
+.list-group-item {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffd151;
+    border-color: #ffd151;
+}
+.list-group-item:hover {
+    background-color: #ffd151;
+}
+.btn {
+    background-color: #ffd151;
+    color: white;
+    border-color:  #ffd151;
+}
+.btn:hover {
+    color: white;
+}
