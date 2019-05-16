@@ -30,3 +30,8 @@ body {
 .btn:hover {
     color: white;
 }
+
+.mi-post {
+  height:170px;
+  margin-bottom: 25px;
+}
