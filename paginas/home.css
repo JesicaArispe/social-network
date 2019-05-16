@@ -1,0 +1,23 @@
+.container-fluid{
+    background-color: rgb(231, 231, 9)
+}
+
+.form-inline {
+    text-align: left;
+
+}
+.btn-group-vertical{
+    text-align: left;
+}
+.card-body{
+    text-align: left;
+}
+.card{
+    text-align: left;
+    float: right;
+}
+.form-inline{
+    text-align: right;
+}.form-group{
+    text-anchor: middle;
+}
