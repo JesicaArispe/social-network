@@ -13,51 +13,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src= "main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
 </head>
 <body>
+    
     <div class="container-fluid h-100">
         <div class="row banner">
             <div class="col-2">
             <img src="images/person-male.png" class="img-fluid d-md-block d-none" alt="Responsive image">
             </div>
+           
             <div class="col-8 mt-5">
                 <textarea id="post-personal" class="form-control" rows="5"></textarea>
                 <button id="button-post" type="button" class="btn btn-outline-primary float-right mt-2 mb-2">Post</button>
             </div>
+            <div class="col-2 d-lg-block d-none">
+                <h1 id="logo">recetas para el mundo</h1>
+                 </div>
         </div>
-        <div class="row cuerpo h-100">
-            <div class="col-2">
-                <ul class="list-group mt-5 h-100 d-none d-md-block">
+        <div class="row cuerpo h-100 no-gutters">
+            
+            <div class="col-8 col-lg-2 offset-2 offset-lg-0 no-gutters">
+            <img src="images/comida-menu.jpg" id="lateral">
+            <img src="images/comida-menu.jpg" id="lateral">
+                <ul class="list-group mt-5 h-100">
                     <li class="list-group-item">notificaciones</li>
                     <li class="list-group-item">favoritos</li>
                     <li class="list-group-item">listas</li>
+                    <li class="list-group-item">amigos</li>
+                    <li class="list-group-item">inbox</li>
                 </ul>
+            <img src="images/comida-menu.jpg" id="lateral" class="offset-12">
             </div>
             <div class="col-8 mt-5" id="muro">
-        
-            </div>
-            <div class="col-2 d-none d-md-block">
-                    <ul class="list-group mt-5">
-                        <li class="list-group-item">Amigos</li>
-                        <li class="list-group-item">Inbox</li>
-                    </ul>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle"
-                                type="button" id="dropdownMenu1" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                          Dropdown
-                        </button>
-            <div class="col-2 d-sm-block d-md-none">
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                          <a class="dropdown-item" href="#!">notificaciones</a>
-                          <a class="dropdown-item" href="#!">favoritos</a>
-                          <a class="dropdown-item" href="#!">favoritos</a>
-                          <a class="dropdown-item" href="#!">listas</a>
-                          <a class="dropdown-item" href="#!">amigos</a>
-                          <a class="dropdown-item" href="#!">inbox</a>
-                        </div>
-                      </div>
+                   
                 </div>
+            <div class="col-2">
+              
+                <div class="d-md-block d-none card" id="ad"></div>
+               
+                <div class="d-md-block d-none card" id="ad"></div>
+                
+            </div>
+            
         </div>
     </div>
 </body>

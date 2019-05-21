@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
+    background-color: #f5fdc6;
 }
+
 .banner {
     background-color: #a6d49f;
 }
@@ -13,11 +15,20 @@ body {
 }
 .form-control {
     height: 100%;
-} 
+
+}
+.list-group{
+    
+    position: relative;
+    padding: 20px;
+    margin-left:20px
+  
+}
 .list-group-item {
     font-family: 'Raleway', sans-serif;
     background-color: #ffd151;
     border-color: #ffd151;
+    text-align: center;
 }
 .list-group-item:hover {
     background-color: #ffd151;
@@ -30,8 +41,33 @@ body {
 .btn:hover {
     color: white;
 }
+.btn:focus{
+    color:white;
+}
 
 .mi-post {
   height:170px;
   margin-bottom: 25px;
+}
+#post-personal {
+   
+}
+
+
+#logo {
+    font-family: 'Just Another Hand', cursive;
+    text-align: center;
+    padding-top:50px;
+}
+#ad{
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#lateral{
+    width: 100%;
+    position:absolute;
 }
