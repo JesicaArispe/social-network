@@ -15,97 +15,79 @@
 <body>
 
         <div class="container-fluid h 100">
-                <div class="row h-100">
-                        <div class="col-12">
-                                <nav aria-label="breadcrumb">
-                                        <ol class="breadcrumb">
-                                                <li class="breadcrumb-item active" aria-current="page">Recetas para el
-                                                        mundo
-                                                </li>
-                                                <li class="breadcrumb-item"><a href="#">Mi perfil</a></li>
-                                                <li class="breadcrumb-item"><a href="#">Ayuda</a></li>
+                <div class="row h-100"></div>
+                <div class="col-12"></div>
+                <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                                <li class="breadcrumb-item active" aria-current="page">Recetas para el
+                                        mundo
+                                </li>
+                                <li class="breadcrumb-item"><a href="#">Mi perfil</a></li>
+                                <li class="breadcrumb-item"><a href="#">Ayuda</a></li>
 
-                                                <nav class="navbar navbar-light bg-light">
-                                                        <div class="offset-12 col-sm-3 col-md-12">
-                                                                <form class="form-inline">
-                                                                        <input class="form-control mr-sm-2" type="text"
-                                                                                placeholder="Search">
-                                                                        <button class="btn btn-outline-success my-5 my-sm-0"
-                                                                                type="submit">Buscar</button>
-                                                                </form>
-                                                        </div>
-                                                </nav>
-                                        </ol>
+                                <nav class="navbar navbar-light bg-light">
+                                        <div class="offset-12 col-sm-3 col-md-12">
+                                                <form class="form-inline">
+                                                        <input class="form-control mr-sm-2" type="text"
+                                                                placeholder="Search">
+                                                        <button class="btn btn-outline-success my-5 my-sm-0"
+                                                                type="submit">Buscar</button>
+                                                </form>
+                                        </div>
                                 </nav>
-                        </div>
-                </div>
+                        </ol>
+                </nav>
+        </div>
+        </div>
 
 
 
-                <div class="container-fluid">
-                        <div class="row h-100">
-                                <div class="col-1">
-                                        <div class="btn-group-vertical" role="group" aria-label="Basic example">
-                                                <div class="btn-group" role="group">
-                                                        <button id="btnGroupDrop1" type="button"
-                                                                class="btn btn-secondary dropdown-toggle"
-                                                                data-toggle="dropdown" aria-haspopup="true"
-                                                                aria-expanded="false">
-                                                                Comunidades
-                                                        </button>
-                                                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                                                <a class="dropdown-item" href="#!">Comida vegana</a>
-                                                                <a class="dropdown-item" href="#!">Comida chatarra</a>
-                                                                <a class="dropdown-item" href="#!">Comida sin TACC</a>
-                                                                <a class="dropdown-item" href="#!">Comida regional</a>
-                                                        </div>
+        <div class="container-fluid">
+
+                <div class="row h-100">
+                        <div class="col-1">
+                                <div class="btn-group-vertical" role="group" aria-label="Basic example">
+                                        <div class="btn-group" role="group">
+                                                <button id="btnGroupDrop1" type="button"
+                                                        class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        Comunidades
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                        <a class="dropdown-item" href="#!">Comida vegana</a>
+                                                        <a class="dropdown-item" href="#!">Comida chatarra</a>
+                                                        <a class="dropdown-item" href="#!">Comida sin TACC</a>
+                                                        <a class="dropdown-item" href="#!">Comida regional</a>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="offset-1 col-sm-11 col-md-7">
-                                <div class="post-estado">
+                        </div>
+                        <br></br>
+                        <div class="offset-1 col-sm-11 col-md-7">
+                                
+                                <div class="post-estado" id="posteo">
                                         <input class="form-control" id="postear" type="text" placeholder="Post Estado">
-                                        <button type="button" id="button-post"class="btn btn-success">Postear</button>
-                                </div> 
+
+                                        <button type="button" id="button-post" class="btn btn-success">Postear</button>
+                                </div>
                                 <br></br>
                                 <div id="post">
-                                        <div class="card p-2 mb-5">
-                                                <div class="card-body">
-                                                        <h4 class="card-title">Estado</h4>
-                                                        <p class="card-text">
-                                                                Some quick example text to build on the card title
-                                                                and make up the bulk of the card's content.
-                                                        </p>
-                                                        <a href="#!" class="card-link">like</a>
-                                                        <a href="#!" class="card-link">Favoritos</a>
-                                                </div>
-                                        </div>
-                                        <div class="card p-2 mb-5">
-                                                <div class="card-body">
-                                                        <h4 class="card-title">Estado</h4>
-                                                        <p class="card-text">
-                                                                Some quick example text to build on the card title
-                                                                and make up the bulk of the card's content.
-                                                        </p>
-                                                        <a href="#!" class="card-link">like</a>
-                                                        <a href="#!" class="card-link">Favoritos</a>
-                                                </div>
-                                        </div> 
+                                        <br></br>
                                 </div>
-                                       
-                                </div>
-                        </div>
 
+                        </div>
                 </div>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                        crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                        crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                        crossorigin="anonymous"></script>
-                <script src="../js/main.js"></script>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+        <script src="../js/main.js"></script>
 
 </body>

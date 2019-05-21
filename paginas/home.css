@@ -1,5 +1,6 @@
 .container-fluid{
-    background-color: rgb(231, 231, 9)
+    background-color: rgb(231, 231, 9);
+    
 }
 
 .form-inline {
@@ -21,3 +22,7 @@
 }.form-group{
     text-anchor: middle;
 }
+.breadcrumb{
+    background-color: beige;
+}
+    
