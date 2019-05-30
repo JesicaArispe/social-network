@@ -6,6 +6,7 @@ $(document).ready(function() {
           '<div class="card-body">'+
     
           '<p class="card-text">'+
+          
           $("#post-personal").val()+
           '</p>'+
           '</div>'+
