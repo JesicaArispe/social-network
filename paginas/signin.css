@@ -1,24 +1,58 @@
+body{
+   background-color: #F8C537;
+   
+}
 .container-fluid{
-    background-color:#FFD151;
-    font-family: 'Raleway', sans-serif;
-    border: 10px;
-    border-left: 20px solid #E77728;
-    padding: 20px 20px 20px 30px;
-    font-size: 20px;
+    margin: 0%;
+    padding: 2%;
+    font-family: Courgette;
+    text-align: center;
+    font-size: 100px;
+    background: #F8C537;
     
 }
 .titulo{
-    color: rgb(97, 160, 97);
-    text-align:center;
-    font-family: 'Raleway', sans-serif;
+    background: #F8C537;
 }
-.btn-primary {
-    background-color:#E77728;
+.container{
+    background:url(../paginas/imagenes/tendencias-recetas-destacada.jpg);
+    width:700px;
+    height:400px ;
+    position: relative;
+    position: center;
+}
+.formulario{
+    position: absolute;
+    top:0px;
 
 }
-.btn-primary:hover {
-    background-color: #a6d49f;
+form{
+    width:130%;
+    color:whitesmoke;
+    border: 1px solid #F5FDC6;
+    margin:3%;
+    padding:2%;
+    float: left;
+    
 }
-html,body{
-    height: 100%;
+label{
+    font-size:13px;
+    display:block;
+    width:100%;
 }
+input {
+    font-size: 13px;
+    margin-bottom:5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.form-check{
+    display: inline;
+}
+a{
+    color:whitesmoke;
+}
+
+
+
+
