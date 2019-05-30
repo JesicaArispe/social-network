@@ -70,4 +70,9 @@ body {
 #lateral{
     width: 100%;
     position:absolute;
+    display: flex;
+    align:flex-end;
+}
+#ventana-inbox{
+    position: relative;
 }

@@ -12,5 +12,10 @@ $(document).ready(function() {
           '</div>' 
         );
     });
-
-});
+  });
+/***
+    $("#inbox").click (function() {
+      $("#ventana-inbox").show();
+   
+  });
+*/
