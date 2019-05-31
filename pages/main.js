@@ -2,11 +2,17 @@ $(document).ready(function() {
 
     $(".btn-login").click(function() {
         
-        var usuario = "paula";
-        var inputUsuario = $(".usuario").val();
+        
+        var inputUsuario = $("#usuario").val();
+        var inputPassword = $("#password").val();
 
-    if ("inputUsuario"==="usuario") {
-        alert ("correcto")}
+    if (inputUsuario==="paula" &&
+    inputPassword==="php2019") {
+        alert ("login correcto");}
+        else {
+            alert ("login incorrecto");
+        }
+  
 
     });
 });

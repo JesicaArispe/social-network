@@ -14,9 +14,3 @@ $(document).ready(function() {
         );
     });
   });
-/***
-    $("#inbox").click (function() {
-      $("#ventana-inbox").show();
-   
-  });
-*/
