@@ -9,7 +9,8 @@ $(document).ready(function() {
           $("#post-personal").val()+
           '</p>'+
           '</div>'+
-          '</div>' 
+          '</div>' +
+          '<button id="eliminar" type="button" class="btn btn-outline-warning">eliminar</button>'
         );
     });
 

@@ -48,10 +48,10 @@ body {
 .mi-post {
   height:170px;
   margin-bottom: 25px;
+margin-left: 20px;
+margin-right: 60px;
 }
-#post-personal {
-   
-}
+
 
 
 #logo {
@@ -70,4 +70,7 @@ body {
 #lateral{
     width: 100%;
     position:absolute;
+}
+#eliminar {
+
 }
