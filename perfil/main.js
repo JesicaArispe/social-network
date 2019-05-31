@@ -13,5 +13,10 @@ $(document).ready(function() {
           '<button id="eliminar" type="button" class="btn btn-outline-warning">eliminar</button>'
         );
     });
-
-});
+  });
+/***
+    $("#inbox").click (function() {
+      $("#ventana-inbox").show();
+   
+  });
+*/
