@@ -22,27 +22,28 @@
 <body>
   <header>
     <div class="container-fluid">
-
+      <div class="row">
       <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
       <h1 class="titulo">Recetas para el mundo</h1>
     </div>
+  </div>
   </header>
   <div class="container">
     <div class="formulario">
       <form>
         <h2>Registrate</h2>
         <label for="nombre">Nombre y Apellido</label>
-        <input type="text" id="nombre" class="nombre-apellido" placeholder="Nombre y apellido">
+        <input type="text" id="login-nombre" class="nombre-apellido" placeholder="Nombre y apellido">
 
         <label for="disabledTextInput">Email</label>
-        <input type="text" id="disabledTextInput" class="email" placeholder="Email">
+        <input type="text" id="login-email" class="email" placeholder="Email">
         </select>
 
         <label for="disabledTextInput">Contraseña</label>
-        <input type="text" id="disabledTextInput" class="constraseña" placeholder="Contraseña">
+        <input type="text" id="login-contraseña" class="constraseña" placeholder="Contraseña">
 
         <label for="disabledTextInput">Confirmar contraseña</label>
-        <input type="text" id="disabledTextInput" class="confirmar-constraseña" placeholder="Confirmar contraseña">
+        <input type="text" id="confirmar-contraseña" class="confirmar-constraseña" placeholder="Confirmar contraseña">
 
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -50,7 +51,10 @@
             Acepto terminos y condiciones
           </label>
 
-          <button type="button" class="btn btn-primary">Sign In</button>
+          <button type="button" class="btn btn-primary" id="btn-signin">Sign In</button>
+          <div class="alert alert-danger" role="alert">
+            <strong>Completa todos los campos</strong> 
+          </div>
           <br>
           <a href="#">Ya tenes cuenta? Iniciar sesion</a>
         </div>
@@ -58,7 +62,7 @@
     </div>
    </div>
 
-
+   <script src="../js/signin.js"></script>
 </body>
 
 </html>

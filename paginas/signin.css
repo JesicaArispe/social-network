@@ -1,5 +1,5 @@
 body{
-   background-color: #F8C537;
+   background-color: #F5FDC6;
    
 }
 .container-fluid{
@@ -8,7 +8,7 @@ body{
     font-family: Courgette;
     text-align: center;
     font-size: 100px;
-    background: #F8C537;
+    background:#F8C537;
     
 }
 .titulo{
@@ -52,7 +52,13 @@ input {
 a{
     color:whitesmoke;
 }
-
+.alert{
+    display:none;
+}
+.btn{
+    background-color: rgb(123, 197, 112);
+    border-color:#A6D49F
+}
 
 
 
