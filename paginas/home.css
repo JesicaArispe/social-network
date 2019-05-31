@@ -25,4 +25,7 @@
 .breadcrumb{
     background-color: beige;
 }
+.form-inline{
+    padding-left: 0;
+}
     
