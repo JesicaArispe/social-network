@@ -1,0 +1,36 @@
+.container-fluid{
+    background-color: #FFD151;
+    margin: 0%;
+    padding: 0%;
+    font-family: Courgette;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.form-inline {
+    text-align: left;
+
+}
+.btn-group-vertical{
+    text-align: left;
+}
+.card-body{
+    text-align: left;
+}
+.card{
+    text-align: left;
+    float: right;
+}
+.form-inline{
+    text-align: right;
+}.form-group{
+    text-anchor: middle;
+}
+.breadcrumb{
+    background-color: beige;
+}
+.form-inline{
+    padding-left: 0;
+}
+    
