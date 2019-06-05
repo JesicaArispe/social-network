@@ -1,0 +1,15 @@
+.banner {
+    background-color: #a6d49f;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 80px;
+}
+.container-fluid {
+    background-color: #f5fdc6;
+}
+
+.title{
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 15px;
+    margin-top: 70px;
+}
