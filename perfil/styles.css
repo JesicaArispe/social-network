@@ -46,13 +46,18 @@ body {
 }
 
 .mi-post {
-  height:170px;
+  height:200px;
   margin-bottom: 25px;
 margin-left: 20px;
-margin-right: 60px;
+padding-right: 80px;
+}
+#post-personal {
+    height: 190px;
 }
 
-
+.card-body {
+    padding-right: 50px;
+}
 
 #logo {
     font-family: 'Just Another Hand', cursive;
@@ -60,17 +65,27 @@ margin-right: 60px;
     padding-top:50px;
 }
 .ad {
-    /* height: 50%; */
-    margin-top: 3%;
+    margin-top: 10%;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
+}
+
+#ad-uno {
+    width: 100%;
+}
+
+#ad-dos {
+    width: 100%;
 }
 #lateral{
     width: 100%;
     position:absolute;
 }
 #eliminar {
+    padding-top: 1%;
+
+    margin-bottom: 2%;
 
 }
 #menu-lateral {

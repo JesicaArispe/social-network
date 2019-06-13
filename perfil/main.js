@@ -12,7 +12,7 @@ $(document).ready(function() {
 
             '</div>' +
           '</div>'+
-            '<button id="eliminar" type="button" class="col-2 offset-10 btn btn-outline-warning">eliminar</button>' +
+            '<button id="eliminar" type="button" class="col-1 offset-11 btn btn-outline-warning">eliminar</button>' +
         '</div>'
         );
     });
